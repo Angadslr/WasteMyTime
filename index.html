@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    
+    <title>Useless Web</title>
+
+</head>
+<style>
+    body {
+        font-family: 'Times New Roman', Times, serif;     
+        font-style: italic;   
+        background-color: #000000;
+        margin: 0;
+        text-shadow: 0 0 10px rgba(245, 161, 161, 0.8);
+    }
+
+    .titlewaste {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center;     
+        height: 70vh;
+        gap: 20px;     
+    }
+    
+
+    .titlewaste2{
+        display: flex;
+        font-family: 'Great Vibes', cursive;        
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;     
+        height: 10vh;
+        gap: 20px; 
+        animation-name: myAnimation;
+        animation-duration: 4s;
+        animation-iteration-count: 999;
+        text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+    }
+
+
+@keyframes myAnimation {
+  0%   {background-color:rgb(68, 19, 19); left:0px; top:0px;}
+  25%  {background-color:rgb(22, 22, 80); left:200px; top:0px;}
+  50%  {background-color:rgb(118, 108, 62); left:200px; top:200px;}
+  75%  {background-color:rgb(24, 26, 89); left:0px; top:200px;}
+  100% {background-color:rgb(68, 19, 19); left:0px; top:0px;}
+}
+
+
+    .heading1 {
+        color: rgb(249, 243, 177);
+        font-family: 'Great Vibes', cursive;        
+        font-size: 120px;
+        text-shadow: 2px 2px 4px #000000;
+        text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    }
+
+
+    .button1 {
+        background-color: #010708;
+        border: none;
+        color: rgb(255, 241, 241);
+        padding: 15px 32px;
+        font-size: 40px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 12px;
+        box-shadow: 0 9px #999;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px;
+        font-size: larger;
+        background-color: #421934;
+        color: white;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+</style>
+<header>
+    <div class siteHeader>
+        <h3 style="color: white; text-align: center;">The Useless Web</h3>
+        <h4 style="color: white; text-align: center; ">Github/Instagram : @angadslr</h4>
+        <h4 style="color: white; text-align: center; ">email: angadmaserati@gmail.com</h4>
+
+    </div>
+</header>
+    <body>
+        <div class="titlewaste">
+            <h1 class = "heading1">Waste my time</h1>
+            <button class="button1 titlewaste2" onclick="
+            console.log('I am taking you to a useless website now...');
+                    
+                    websiteName = giveMeUselessWeb()
+                    window.open(websiteName, '_blank')
+                    
+            ">please</button>
+        </div>
+       <!-- <h1 class="titlewaste">Waste my time</h1>
+        
+        <button class="button1" onclick="
+        console.log('I am taking you to a useless website now...');
+                
+                websiteName = giveMeUselessWeb()
+                window.open(websiteName, '_blank')
+                
+        ">please</button>-->
+    
+        <script src ="uselessWeb.js"></script>
+
+    
+    
+        </body>
+        <footer>
+            <div background-color: black;>
+                <p>Made with ❤️ by Angad Srivastava.</p>
+            </div>
+
+        </footer>
+</html>
